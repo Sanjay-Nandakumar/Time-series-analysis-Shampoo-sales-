@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Input</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ url_for('static',    filename='Input/images/icons/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='Input/vendor/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='Input/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='Input/vendor/animate/animate.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='Input/vendor/css-hamburgers/hamburgers.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='Input/vendor/animsition/css/animsition.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='Input/vendor/select2/select2.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='Input/vendor/daterangepicker/daterangepicker.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static',    filename='Input/css/util.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static',    filename='Input/css/main.css') }}">
+
+</head>
+<body>
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" action = "http://localhost:5000/randomforestregression" method = "POST">
+				<span>
+					<b  style="font-size:30px"  >House price prediction (Boston dataset) </b>
+				</span>
+
+				<br>
+				<br>
+
+			<b>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Full-value property-tax rate per $10,000</span>
+				
+					<input style="font-size: 12px" class="input100" type="text" name="name" placeholder="Example : 300" >
+
+					<span class="focus-input100"></span>
+				</div>
+			</b>
+				
+
+			<b>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">Pupil-teacher ratio by town</span>
+						<input style="font-size: 12px" class="input100" type="text" name="name" placeholder="Example : 15">
+						<span class="focus-input100"></span>
+				</div>
+
+			</b>
+
+
+            <b>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">% lower status of the population</span>
+						<input style="font-size: 12px" class="input100" type="text" name="name" placeholder="Example : 5">
+						<span class="focus-input100"></span>
+				</div>
+			</b>
+
+
+			<b>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">Proportion of non-retail business acres per town</span>
+						<input style="font-size: 12px" class="input100" type="text" name="name" placeholder="Example : 3">
+						<span class="focus-input100"></span>
+				</div>
+			</b>
+
+
+			<b>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">Nitric oxides concentration (parts per 10 million)</span>
+						<input style="font-size: 12px" class="input100" type="text" name="name" placeholder="Example : 1">
+						<span class="focus-input100"></span>
+				</div>
+			</b>
+
+
+			<b>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">Weighted distances to five Boston employment centres</span>
+						<input style="font-size: 12px" class="input100" type="text" name="name" placeholder="Example : 5">
+						<span class="focus-input100"></span>
+				</div>	
+			</b>
+
+		<b>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">Index of accessibility to radial highways</span>
+						<input style="font-size: 12px" class="input100" type="text" name="name" placeholder="Example : 1">
+						<span class="focus-input100"></span>
+				</div>	
+		</b>
+
+		<input type = "submit" value = "Predict" />
+
+	</form>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
